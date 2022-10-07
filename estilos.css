@@ -1,0 +1,103 @@
+header {
+        display: flex;
+        top: 0px;
+        left: auto;
+        right: auto;
+    }
+    
+#fundo {
+    left: auto;
+    right: auto;
+    width: 500%;
+    height: 800px;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    color: white; 
+    left: 90px;
+    width: 579px;
+height: 201px;
+font-family: 'Work';
+font-style: normal;
+font-weight: 700;
+}
+
+
+#logo {
+    display: block;
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    left: 88px;
+    top: 63px;
+}
+
+
+#guitars {
+    position: absolute;
+    width: 65px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150%;
+    line-height: 130%;
+    text-align: center;
+    color: #FCFCFC;
+    left: 383px;
+    top: 23px;
+}
+
+#acessorios {
+    width: 96px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150%;
+    line-height: 130%;
+    text-align: center;
+    color: #FCFCFC;
+    position: absolute;
+    top: 23px;
+    left: 570px;
+}
+
+#aulas {
+
+    width: 49px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size:150%;
+    line-height: 130%;
+    text-align: center;
+    color: #FCFCFC;
+    position: absolute;
+    top: 23px;
+    left: 790px;
+}
+
+#carrinho {
+    top: 65px;
+    left: 87%;
+    right: 167px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+#perfil {
+
+    top: 65px;
+    left: 89%;
+    right: 119px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+
