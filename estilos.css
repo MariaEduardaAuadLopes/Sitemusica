@@ -107,7 +107,7 @@ h1 {
 
 
     background-image: none;
-    display: flex;
+    display:block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -120,33 +120,107 @@ h1 {
     left: 48px;
     right: 200px;
     top: 604px;
-
-
     box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 
 
 }
 
-#saibamais {
+
  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    gap: 10px;
-    width: 113px;
-    height : 34px;
-    left :400px;
-    background: #FF753A;
-    border-radius: 32px;
+#h2{ 
+position: absolute;
+left: 40px;
+right:50px;
+top: -200px;
+bottom: 0px;
 
-    /* Inside auto layout */
-color: white;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+color: #505050;
 } 
 
+#guitarra1{
+    margin-top: 500px;
+}
 
+
+
+ 
+
+
+ 
+   
+     
+
+
+
+
+
+
+
+.produtos{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fundo{
+    background:radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+}
+
+.fundo img{
+    margin-top: -30px;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cores{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 150px;
+}
+.produtos2{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fundo{
+    background: #FFFFFF;
+} 
+.fundo img{
+    margin-top: -30px;
+}
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cores{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 150px;
+}
